@@ -1,10 +1,16 @@
 import os
+import streamlit as st
 from groq import Groq
 from dotenv import load_dotenv
 
+# Load local .env (for running on your laptop)
 load_dotenv()
 
-client = Groq(api_key=os.getenv("GROQ_API_KEY"))
+# Use Streamlit Secrets if available, otherwise use .env
+api_key = st.secrets.get("GROQ_API_KEY", os.getenv("GROQ_API_KEY"))
+
+client = Groq(api_key=api_key)
+
 
 def analyze_resume(resume_text, jd_text, score):
     prompt = f"""
