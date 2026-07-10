@@ -1,0 +1,21 @@
+# Software Engineer
+
+We are looking for a Software Engineer with experience in Python, SQL, Machine Learning, FastAPI, REST APIs, Git, and cloud technologies.
+
+### Required Skills
+
+* Python
+* SQL
+* Machine Learning
+* FastAPI
+* Git
+* REST API
+* AWS (Preferred)
+
+### Experience
+
+2–4 years of software development experience.
+
+### Education
+
+Bachelor's degree in Computer Science, Information Technology, or a related field.
