@@ -1,7 +1,7 @@
 # AI Resume Screening Agent
 ## Live Demo
 
-https://your-app-name.streamlit.app
+https://resume-screening-agent-ppnejfjqbb5jpn49avyb8u.streamlit.app/
 
 ## Overview
 
